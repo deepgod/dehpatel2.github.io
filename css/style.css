@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background-color:rgb(147, 145, 150);  
+    border-style: solid;
+    border-color: #D3C1D2;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+footer {
+    background-color:rgb(147, 145, 150);  
+    border-style: solid;
+    border-color: #D3C1D2;
+    display: flex;
+    justify-content: center;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: large;
+
+}
+
+footer a
+{
+    color: white;
+}
+
+footer a:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+.intro
+{
+    padding: 0 30px;
+    padding-bottom: 200px;
+    background-color: #273C2C;
+    color: #FFE2FE;
+    font-family: 'Protest Guerrilla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+
+.main {
+    padding: 15px;
+    background-color: #D3C1D2;
+    color: aliceblue;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    justify-self: center;
+    border-radius: 5%;
+    background-color: rgb(146, 188, 225);
+    color: black;
+}
+
+.cards img
+{
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+
+.cards:hover
+{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+.container, #contact-card {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-col, .one-col {
+    display: grid;
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.three-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.one-col {
+    grid-template-columns: 1fr;
+}
+
+#security, #computer {
+    object-fit: cover;
+    position: absolute;
+    top: 2rem;
+    border-radius: 40px;
+}
+
+#security {
+    left: 2rem;
+}
+
+#computer {
+    right: 2rem;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit {
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border: ridge #D3C1D2 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#submit:hover {
+    background-color: #D3C1D2;
+    color: aliceblue;
+    border-color: black;
+}
+.contactme {
+    padding: 15px;
+    background-color: #D3C1D2;
+    color: aliceblue;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px #D3C1D2; 
+}
